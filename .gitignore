@@ -1,0 +1,37 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Private medical datasets
+data/raw/
+data/interim/
+data/processed/
+
+# Generated model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated artifacts
+artifacts/metrics/
+artifacts/plots/
+artifacts/reports/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
